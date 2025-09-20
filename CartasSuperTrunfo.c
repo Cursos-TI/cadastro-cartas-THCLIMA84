@@ -43,9 +43,9 @@ printf("\n");
   printf("PIB:");
     printf("insira um valor aproximado do PIB da CIDADE escolhida anteriormente; \n");
     printf("\n");
-  printf("NÚMERO DE PONTOS TURÍSTICOS:");
-                printf("deve conter um valor aproximado dos pontos turísticos da CIDADE escolhida anteriormente; \n");
-                    printf("\n");
+  printf("PONTOS TURÍSTICOS:");
+    printf("insira um valor aproximado dos pontos turísticos da CIDADE escolhida anteriormente; \n");
+    printf("\n");
   
   // Área para entrada de dados
 
