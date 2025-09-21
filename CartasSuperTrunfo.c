@@ -10,55 +10,56 @@ int main() {
     char Estado;
     char Codigo;
     char Cidade[20];
-    float Area;
+    float Área;
     float PIB;
-    int Turismo;
+    int PTurísmo;
 
-printf("+++++++++++++++++++++++++++++++++++++++++++++++++++\n");
-printf("+++++++++++++++++++++++++++++++++++++++++++++++++++\n");
-printf("*****Olá, você está no SUPER TRUNFO - Países!******\n");
-printf("+++++++++++++++++++++++++++++++++++++++++++++++++++\n");
-printf("+++++++++++++++++++++++++++++++++++++++++++++++++++\n");
-printf("!!!!!!!!  ATENÇÃO PARA AS REGRAS DO JOGO   !!!!!!!!\n");
-printf("\n");
-printf("*************** De Olho nas Regras *****************\n");
-printf("\n");
-printf("Digite o Estado de sua escolha... \n ");
-  printf("Estado: "); 
-    //linha de código para o usuário inserir o Estado
-    printf("Estado: ", &Estado);
-      printf(" - * após escolher o Estado, escolha uma lerta entre A e H que irá representar esse Estado, ex:. Bahia(B) \n");
-        printf("\n");
-printf("Código da Carta ");
-  printf("ATENÇÃO!!, O código da carte deve conter a letra que irá representar o Estado seguida de um número, ex:. Estado= São Paulo_letra_A_Cod: A01; \n");
-      //linha com código para usuário inserir o Código
-      printf("Código: ", &Codigo);
-        printf("\n");      
-printf("Cidade");
-  printf("escolha uma cidade pertencente ao Estado que escolheu anteriormente, ex:. Estado Bahia_cidade_Ilhéus;\n");
-  //linha com código para usuário inserir a Cidade
-  printf("Cidade")
+    printf("+++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+    printf("+++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+    printf("*****Olá, você está no SUPER TRUNFO - Países!******\n");
+    printf("+++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+    printf("+++++++++++++++++++++++++++++++++++++++++++++++++++\n");
+    printf("!!!!!!!!  ATENÇÃO PARA AS REGRAS DO JOGO   !!!!!!!!\n");
     printf("\n");
-printf("População: ");
-  printf("insira a Populção aproximada da cidade escolhida anteriormente; \n");
-  //linha com código para usuário inserir População
+    printf("*************** De Olho Nas Regras *****************\n");
     printf("\n");
-printf("Área: ");
-  printf("insira um valor aproximado da densidade demgráfica da CIDADE escolhida anteriormente; \n");
-  //linha com código para usuário inserir densidade demográfica
+    printf("Digite um Estado de sua Escolha");
+      scanf("%s", &Estado);
+      printf("Estado: %s", &Estado);
+      printf(" - * Após escolher o Estado, escolha uma lerta entre A e H que irá representar esse Estado, ex:. Bahia(B) \n");
       printf("\n");
+    printf("Código da Carta ");
+      printf("ATENÇÃO!!, O código da carta deve conter a letra que irá representar o Estado seguida de um número, ex. 1: Estado= São Paulo_letra_A_Código: A01; ex. 2: Bahia_letra_B_Código: B1 \n");
+      printf("Código: ", &Codigo);
+        //linha com código para usuário inserir o Código
+          printf("\n");      
+    printf("Cidade");
+      printf("Escolha uma cidade pertencente ao Estado que escolheu anteriormente, ex:. Estado Bahia_cidade_Ilhéus;\n");
+      printf("Cidade", &Cidade);
+        //linha com código para usuário inseri a Cidade
+          printf("\n");
+  printf("População");
+    printf("Insira a Populção aproximada da cidade escolhida anteriormente; \n");
+      printf("População)", &População);
+        //linha com código para usuário inserir População
+          printf("\n");
+printf("Área ");
+  printf("insira um valor aproximado da densidade demgráfica da CIDADE escolhida anteriormente; \n");
+    printf("Área: ", &Área);  
+      //linha com código para usuário inserir densidade demográfica
+        printf("\n");
 printf("PIB:");
   printf("insira um valor aproximado do PIB da CIDADE escolhida anteriormente; \n");
-  //linha com código para usuário inserir PIB
-    printf("\n");
+    printf("PIB: ", &PIB);
+      //linha com código para usuário inserir PIB
+        printf("\n");
 printf("Pontos Turísticos:");
   printf("insira um valor aproximado dos pontos turísticos da CIDADE escolhida anteriormente; \n");
-  //linha com código para usuário inserir PIB
-    printf("\n");
+    printf("Pontos Turísticos: ", &PTurísmo);  
+      //linha com código para usuário inserir PIB
+        printf("\n");
   
-  // Área para entrada de dados
-
+  
   // Área para exibição dos dados da cidade
-
-return 0;
-} 
+  return 0;
+}
