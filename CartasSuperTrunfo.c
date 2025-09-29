@@ -7,7 +7,7 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
     int População;
-    char Estado;
+    char Estado[20];
     char Código[20];
     char Cidade[20];
     float Área;
@@ -34,9 +34,8 @@ int main() {
           printf("\n");
           printf("Digite o Código da carta \n ");
             scanf("%s", &Código);
-              printf("Código: %s \n ", &Código);                
-                  Código[20] = &Código;
-                    printf("\n");      
+              printf("Código: %s \n ", Código); 
+                printf("\n");      
     printf("Cidade \n");
       printf("Escolha uma cidade pertencente ao Estado que escolheu anteriormente, ex:. Estado Bahia_cidade_Ilhéus; \n");
         printf("Digite a Cidade: ");
@@ -49,7 +48,7 @@ int main() {
         printf("Digite a População: ");
           scanf("%d", &População);
             printf("População: %d \n", População);    
-              População = &População;    
+              População = População;    
                 printf("\n");
     printf("Área \n");
       printf("insira um valor aproximado da densidade demgráfica da CIDADE escolhida anteriormente; \n");
@@ -63,9 +62,29 @@ int main() {
             printf("\n");
     printf("Pontos Turísticos \n");
       printf("insira um valor aproximado dos pontos turísticos da CIDADE escolhida anteriormente; \n");
-        scanf("%i", & PTurístico);
-          printf("Pontos Turísticos: %i", PTurístico); 
+        scanf("%d", &PTurístico);
+          printf("Pontos Turísticos: %d", PTurístico); 
             printf("\n");
+    printf("lendo dados... \n");
+    printf("carrregando Carta 1.");
+    printf("..");
+    printf("...");
+    printf("\n");
+    printf(".");
+    printf("..");
+    printf("... \n");
+    printf("\n");
+    printf("*CARTA 1* \n"); 
+      printf("Estado: %s \n", Estado);
+      printf("Código: %i \n", Código);
+      printf("Cidade: %s \n", Cidade);
+      printf("População: %d \n", População);
+      printf("Área: %f \n", Área);
+      printf("PIB: %f \n", PIB);
+      printf("Pontos Turísticos: %d \n", PTurístico);
+
+
+
   
   
   // Área para exibição dos dados da cidade
