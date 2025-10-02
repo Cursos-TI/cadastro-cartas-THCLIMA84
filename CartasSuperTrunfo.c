@@ -6,13 +6,13 @@
 
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
-    int População;
-    char Estado[20];
-    char Código[20];
-    char Cidade[20];
-    float Área;
-    float PIB;
-    int PTurístico;
+    int População, População2;
+    char Estado[20], Estado2[20];
+    char Código[20], Código2[20];
+    char Cidade[20], Cidade2[20];
+    float Área, Área2;
+    float PIB, PIB2;
+    int PTurístico, PTurístico2;
 
     printf("+++++++++++++++++++++++++++++++++++++++++++++++++++\n");
     printf("+++++++++++++++++++++++++++++++++++++++++++++++++++\n");
@@ -34,7 +34,7 @@ int main() {
           printf("\n");
           printf("Digite o Código da carta \n ");
             scanf("%s", &Código);
-              printf("Código: %s \n ", Código); 
+              printf("Código: %s \n", &Código);
                 printf("\n");      
     printf("Cidade \n");
       printf("Escolha uma cidade pertencente ao Estado que escolheu anteriormente, ex:. Estado Bahia_cidade_Ilhéus; \n");
@@ -63,20 +63,47 @@ int main() {
     printf("Pontos Turísticos \n");
       printf("insira um valor aproximado dos pontos turísticos da CIDADE escolhida anteriormente; \n");
         scanf("%d", &PTurístico);
-          printf("Pontos Turísticos: %d", PTurístico); 
+          printf("Pontos Turísticos: %d \n", PTurístico);
+            printf("\n");
+            printf("\n");
             printf("\n");
     printf("lendo dados... \n");
-    printf("carrregando Carta 1.");
-    printf("..");
-    printf("...");
-    printf("\n");
-    printf(".");
-    printf("..");
-    printf("... \n");
-    printf("\n");
+      printf("\n");
+        printf("carrregando Carta 1. \n");
+          printf("\n");
+            printf("carregando... \n");
+              printf("\n");
+                printf("Carta 1 carregada com sucesso \n");
+    printf("Digite os dados da Carta 2 \n");  
+        printf("Estado: %s", &Estado2 );
+          scanf("%s \n", &Estado2);
+            printf("\n");
+    printf("Código da Carta: ");
+      scanf("%s \n", &Código2);
+        printf("Código: %s \n", &Código2);
+          printf("\n");
+    printf("Cidade: ");
+      scanf("%s \n", &Cidade2);
+        printf("\n");
+    printf("População: ");
+      scanf("%d \n", &População2);
+        printf("\n");
+    printf("Área: ");
+      scanf("%d \n", &Área2);
+        printf("\n");
+    printf("PIB: ");
+      scanf("%d \n", &PIB2);
+        printf("\n");
+    printf("Pontos Turísticos: ");
+      scanf("%d \n", &PTurístico2);
+        printf("\n");
+    
+    
+
+
     printf("*CARTA 1* \n"); 
       printf("Estado: %s \n", Estado);
-      printf("Código: %i \n", Código);
+      printf("Código: %s \n", Código);
       printf("Cidade: %s \n", Cidade);
       printf("População: %d \n", População);
       printf("Área: %f \n", Área);
