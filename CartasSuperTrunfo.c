@@ -140,6 +140,7 @@ int main() {
                   printf("Pontos Turísticos: %d \n", PTurístico2);
                     printf("\n");
     printf("\n");
+    
 
   return 0;
 }
