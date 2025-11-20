@@ -44,7 +44,7 @@ int main() {
       printf("  **ATENÇÃO!!** - O código da carta deve conter a letra que irá representar o Estado seguida de um número, ex. 1: Estado= São Paulo_letra_A_Código: A01; ex. 2: Bahia_letra_B_Código: B1\n");
         printf("\n");
           printf("Digite o Código da carta: ");
-            scanf("%s[20]", &Codigo);
+            scanf("%s", &Codigo);
               printf("Código: %s \n", &Codigo);
                 printf("\n");      
     printf("Cidade \n");
