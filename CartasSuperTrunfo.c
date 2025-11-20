@@ -33,7 +33,7 @@ int main() {
     printf("  Exemplo: Bahia (B)\n");
     printf("  O código deve conter a letra que representa o Estado seguida de um número.\n");
     printf("  Exemplo 1: Estado = São_Paulo, letra A → Código: A01\n");
-    printf("  Exemplo 2: Estado = Bahia, letra B → Código: B1\n\n");
+    printf("  Exemplo 2: Estado = Bahia, letra B → Código: B01\n\n");
 
     printf("Digite o Código da carta: ");
     scanf("%s", Codigo);
@@ -45,7 +45,7 @@ int main() {
     scanf("%s", Cidade);
 
     printf("\n  ** Atenção!!** - Insira a população aproximada da cidade escolhida.\n");
-    printf("Digite a População: ");
+    printf("Digite a População: %d");
     scanf("%d", &Populacao);
 
     printf("\n  ** Atenção!!** - Insira a área aproximada da cidade em km².\n");
