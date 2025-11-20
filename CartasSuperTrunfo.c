@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 // Desafio Super Trunfo - Países - teste aula guanabara
 // Tema 1 - Cadastro das cartas
